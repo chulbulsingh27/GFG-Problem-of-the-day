@@ -37,6 +37,7 @@ deleting 9 will be
                /  \     \
               4    7     12
 // code
+      // finding successor
 Node* help(Node* root){
     Node* temp = root;
     while(temp != NULL && temp->left != NULL) root = root->left;
@@ -58,8 +59,7 @@ Node *deleteNode(Node *root, int x) {
             delete temp;
             return root;
         }
-        // deleting root if both left and right exists.
-        Node* temp = help(root->right);//move left to right 
+        Node* temp = help(root->right);
         root->data = temp->data;
         root->right = deleteNode(root->right,temp->data);
     }

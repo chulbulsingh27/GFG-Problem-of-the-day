@@ -3,8 +3,7 @@
 # all bars have same width and the width is 1 unit.
 # For example, consider the following histogram with 7 bars of heights {6, 2, 5, 4, 5, 1, 6}.
 # The largest possible rectangle possible is 12.
-*/
-
+// code
 #include <bits/stdc++.h>
 using namespace std;
 

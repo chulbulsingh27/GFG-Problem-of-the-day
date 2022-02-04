@@ -1,4 +1,5 @@
-Cupid wants to strike maximum houses in Geek Land on Valentine's Day. The houses in Geek Land are arranged in the form of a binary tree. Cupid is standing at target node initially. 
+Cupid wants to strike maximum houses in Geek Land on Valentine's Day. The houses in Geek Land are arranged in the form of a binary tree. 
+Cupid is standing at target node initially. 
 Find the sum of all nodes within a maximum distance k from target node. The target node should be included in the sum.
 
 
